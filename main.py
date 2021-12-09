@@ -19,7 +19,7 @@ for char in range(1, nr_symbols+1):
 for int in range(1,nr_numbers+1):
   password += random.choice(numbers)
 
-print(f"Your suggested password is {password}")
+print(f"Your suggested easy password is {password}")
 
 #Hard level
 password_list =[]
